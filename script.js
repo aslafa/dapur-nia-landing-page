@@ -1,0 +1,1 @@
+document.getElementById("orderForm").addEventListener("submit",function(e){e.preventDefault();document.getElementById("formMessage").textContent="Terima kasih! Formulir latihan berhasil diisi. Data tidak dikirim ke database.";this.reset();});
